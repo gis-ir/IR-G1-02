@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="867LunDuCV7N" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[monto]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[intenger]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Pago de un pequeño porcentaje del inmueble que será devuelto si decides no comprarlo tras la visita.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

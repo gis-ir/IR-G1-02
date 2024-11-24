@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5mVSfdbNTEUQ" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Debilidades]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[* <strong> DEB-01: </strong> Muchos ciudadanos que vivan fuera de Tirana, no pueden ver vía online los pisos o locales disponibles de cada edificio.
+
+* <strong> DEB-02: </strong> Necesidad de tener a miembros del equipo atendiendo llamadas de clientes para aportar información sobre las casas, bloques, locales, etc. 
+
+* <strong> DEB-03: </strong> Posibles fallos humanos a la hora de concretar una cita con el cliente. ]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[DEB-01: Muchos ciudadanos que vivan fuera de Tirana, no pueden ver vía online los pisos o locales disponibles de cada edificio.
+
+DEB-02: Necesidad de tener a miembros del equipo atendiendo llamadas de clientes para aportar información sobre las casas, bloques, locales, etc. ]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

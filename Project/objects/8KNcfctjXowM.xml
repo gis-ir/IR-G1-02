@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="8KNcfctjXowM" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Fortalezas]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[ * <strong> FOR-01: </strong> La web de la empresa Nova Construction muestra muchas imágenes de los edificios para verlos, incluso imágenes en 3D de construcciones a realizar.
+
+* <strong> FOR-02: </strong> El equipo de trabajo proporciona la información a los clientes de forma muy eficaz.
+
+* <strong> FOR-03: </strong> La interfaz de usuario de la web de la empresa permite a los clientes navegar por ella de forma sencilla y clara.
+
+* <strong> FOR-04: </strong> Los clientes pueden conocer de manera sencilla información detallada sobre el equipo de trabajo.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[FOR-01: La empresa Nova Construction está formada por una plantilla joven con facilidad para gestionar sus construcciones a través de su página web.
+
+FOR-02: El equipo de trabajo proporciona la información de forma muy eficaz.]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

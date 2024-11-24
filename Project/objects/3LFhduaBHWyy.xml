@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3LFhduaBHWyy" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paragraph]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[<ul> <li><strong>Objetivo 1</strong>: Implementar un motor de búsqueda robusto que permita a los usuarios encontrar apartamentos basados en criterios clave (ubicación, precio, tamaño, etc.).</li> <li><strong>Objetivo 2</strong>: Asegurar que el motor de búsqueda sea intuitivo y rápido, proporcionando una experiencia de usuario fluida tanto en plataformas de escritorio como móviles.</li> <li><strong>Objetivo 3</strong>: Integrar el motor de búsqueda con la base de datos existente de apartamentos disponibles de la empresa, sin requerir una renovación importante del sitio web.</li> <li><strong>Objetivo 4</strong>: Proporcionar capacidades de filtrado y clasificación para que los usuarios puedan reducir sus resultados de búsqueda.</li> <li><strong>Objetivo 5</strong>: Asegurar que el motor de búsqueda pueda manejar la escalabilidad futura, permitiendo que la empresa añada más listados sin degradación en el rendimiento.</li> </ul>]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

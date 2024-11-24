@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4srBz6Y4B92t" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[metrosCuadrados]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[integer]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

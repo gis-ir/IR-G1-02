@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7XVxtuuoD7VY" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Actores de negocio actuales]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Actualmente, el proceso de reserva de inmuebles involucra a los siguientes actores principales:
+
+- <b> Cliente: </b>  Persona interesada en la búsqueda y reserva de inmuebles, es el propio cliente el que se comunica vía teléfono con la empresa, para obtener información sobre los inmuebles disponibles, sus características y como programar una visita a este.
+- <b> Empleado: </b> profesional encargado de la atención de llamadas del cliente para proporcionar toda la información y características sobre el inmueble del interesado/a, y de la organización de las visitas. Coordina la comunicación entre los clientes y la empresa, utilizando llamadas telefónicas.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

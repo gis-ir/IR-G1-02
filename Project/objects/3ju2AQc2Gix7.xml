@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3ju2AQc2Gix7" classes="model-element association" acceptedChildren="role attribute" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[ASSO-]]></prefix><number>009</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Adquiere]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-11-15</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <booleanProperty name="is-composition" category="detail" tooltip="is-composition">false</booleanProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Esta asociación representa la relación entre "Cliente" e "Inmueble".]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement model-element" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="3RUxBNctctQX"/>
+    <child id="4PhNEFUS8FmB"/>
+  </children>
+</object>

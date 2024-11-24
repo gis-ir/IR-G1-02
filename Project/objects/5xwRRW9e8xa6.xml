@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5xwRRW9e8xa6" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paragraph]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[La empresa que solicita nuestros servicios es una constructora y promotora especializada en bloques de pisos. Su principal actividad consiste en la construcción de estos edificios con el objetivo de venderlos, enfocándose en proyectos de alta calidad y sostenibilidad, además de contar con un diseño innovador al trabajar con arquitectos internacionales. 
+
+Se dedican principalmente a la construcción de edificios residenciales y comerciales, lo que les permite tener una clientela tanto del sector público como privado. Entre sus proyectos más destacados se encuentran la "White Tower" y el "Tirana Garden Building". 
+
+A pesar de ser una empresa de renombre, su presencia online no refleja su prestigio, ya que la falta de información en sus plataformas dificulta la decisión de los clientes a la hora de comprar y complica el trabajo de sus empleados. ]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

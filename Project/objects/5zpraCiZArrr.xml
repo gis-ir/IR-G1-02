@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5zpraCiZArrr" classes="software-requirement subsystem" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[SUBS-]]></prefix><number>001</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Subsistema de visitas a inmuebles]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-11-19</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="d97XAFMyn8jz" traceType=":Proteus-information-source"/>
+    </traceProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El subsistema de visitas a inmueble se encarga de gestionar las visitas asociadas a todos los inmuebles disponibles por parte de clientes.
+
+Este subsistema permite a los clientes coordinar visitas a inmuebles, al mismo tiempo que ofrece herramientas para la gestión, la planificación y el control de estas interacciones. 
+
+
+
+Su funcionalidad se basa en:
+
+**1. Reserva del Inmueble:** El cliente selecciona un inmueble que desea visitar desde el catálogo y comienza a realizar la reserva, especificando el período de tiempo (por ejemplo, 2 días) durante el cual desea la reserva, el sistema registra la reserva con los datos sobre la fecha en la que inicia la reserva y en la que finaliza, el estado de la reserva, que cambiará a "Pagada" tras confirmar la solicitud y el monto asociado a esa reserva.
+
+
+**2. Acceso a la visita en el periodo acordado en la reserva:** durante el período de la reserva (entre Fecha Inicio y Fecha Fin), el cliente puede visitar el inmueble cuando desee pero dentro de esas fechas, y una vez. El sistema utiliza el atributo EstadoReserva para validar el acceso. Solo reservas con estado "Pagada" y dentro del rango de fechas permiten la visita.
+
+
+**3. Fin de la reserva:** al alcanzar la Fecha Fin, el sistema automáticamente actualiza el EstadoReserva a "Anulada" o "Finalizada", dependiendo de si el cliente realizó una compra. Desde este momento, el cliente ya no puede realizar más visitas al inmueble.
+
+
+**4. Decisión del cliente:** Si el cliente está interesado, tras la visita, si desea adquirir el inmueble, inicia el proceso de compra. El sistema registra la adquisición en la entidad Inmueble, asociándola al cliente, y actualiza el estado del inmueble para que no esté disponible para otros usuarios. Por otro lado, si el cliente no está interesado, la reserva se cierra automáticamente una vez que expira el período de reserva, sin permitir la visita del cliente. El inmueble queda disponible nuevamente para otros clientes.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">high</enumProperty>
+    <enumProperty name="priority" category="detail" tooltip="priority" choices="tbd high medium low">high</enumProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="6iQT8whW54CD" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
